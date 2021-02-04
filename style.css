@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 20px;
+  font-family: 'ProximaNova', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+b {
+  font-weight: 600;
+  display: block;
+}
+/* Header settings */
+header {
+  overflow: hidden;
+  color: #fff;
+  max-width: 1920px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.header-background__color {
+  position: absolute;
+  background-color: #0a0e34;
+  max-width: 1920px;
+  max-height: 1082px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  left: 0;
+}
+.header-background__image {
+  position: absolute;
+  background-image: url(./img/Background-football.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  max-width: 1920px;
+  max-height: 1082px;
+  height: 100%;
+  width: 100%;
+}
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 960px;
+  z-index: 2;
+}
+.content-width {
+  max-width: 1420px;
+  margin: 0 auto;
+  width: 100%;
+} 
+.logo-elements {
+  display: flex;
+  justify-content: space-between;
+}
+.signature {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.7em;
+  padding: 8px;
+}
+h1 {
+  font-size: 4.500em;
+  text-transform: uppercase;
+}
+.first-element__heading {
+  text-align: start;
+}
+.second-element__heading {
+  text-align: end;
+  margin-right: 30px;
+}
+.nav-bar {
+  text-align: end;
+}
+.nav-bar > ul {
+  display: inline-flex;
+  text-transform: uppercase;
+}
+.nav-bar > ul li {
+  padding: 5px 20px;
+}
+.nav-bar > ul a {
+  font-size: 0.7em;
+  color: #9071ea;
+}
+.nav-bar > ul a:hover {
+  color: #fff;
+  border-bottom: 2px solid rgb(145, 146, 206);
+}
+.button-element {
+  text-align: center;
+}
+
+
+/* Button settings */
+.button {
+  margin: 0 30px;
+  display: inline-block;
+  font-size: 0.700em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  padding: 20px 50px;
+  border: none;
+  background-color: #5e42b0;
+  border-radius: 60px;
+}
+.button:hover {
+  background-color: #8a60d8;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.button > img {
+  width: 37px;
+  height: 43px;
+}
+.button > span {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  vertical-align: super;
+  margin-left: 10px;
+}
