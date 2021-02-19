@@ -18,7 +18,7 @@ b {
   display: block;
 }
 
-/* Header settings */
+/* Header Settings */
 
 header {
   overflow: hidden;
@@ -29,7 +29,7 @@ header {
   margin: 0 auto;
   position: relative;
 }
-.header-background__color {
+.header_background_color {
   position: absolute;
   background-color: #0a0e34;
   max-width: 1920px;
@@ -40,7 +40,7 @@ header {
   top: 0px;
   left: 0;
 }
-.header-background__image {
+.header_background_image {
   position: absolute;
   background-image: url(./img/Background-football.png);
   background-position: center;
@@ -52,19 +52,19 @@ header {
   height: 100%;
   width: 100%;
 }
-.header-content {
+.header_content {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  min-height: 910px;
+  min-height: 930px;
   z-index: 2;
 }
-.content-width {
+.content_width {
   max-width: 1475px;
   margin: 0 auto;
   width: 100%;
 } 
-.logo-elements {
+.logo_elements {
   display: flex;
   justify-content: space-between;
 }
@@ -79,36 +79,36 @@ h1 {
   font-size: 4.500em;
   text-transform: uppercase;
 }
-.first-element__heading {
+.first_element_heading {
   text-align: start;
 }
-.second-element__heading {
+.second_element_heading {
   text-align: end;
   margin-right: 30px;
 }
-.nav-bar {
+.nav_bar {
   text-align: end;
 }
-.nav-bar > ul {
+.nav_bar > ul {
   display: inline-flex;
   text-transform: uppercase;
 }
-.nav-bar > ul li {
+.nav_bar > ul li {
   padding: 5px 20px;
 }
-.nav-bar > ul a {
+.nav_bar > ul a {
   font-size: 0.7em;
   color: #9071ea;
 }
-.nav-bar > ul a:hover {
+.nav_bar > ul a:hover {
   color: #fff;
   border-bottom: 2px solid rgb(145, 146, 206);
 }
-.button-element {
+.button_element {
   text-align: center;
 }
 
-/* Main Wrapper */
+/* Main Settings */
 main {
   max-width: 1920px;
   margin: 0 auto;
@@ -118,11 +118,11 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.athlet-section {
+.athlet_section {
   grid-template-rows: 66% 29%;
   margin: 50px 0 0 0;
 }
-.athlet-section .activity_cell {
+.athlet_section .activity_cell {
   max-width: 720px;
 }
 .activity_cell {
@@ -143,7 +143,7 @@ section {
   background-position-x: right;
   margin-right: 6%;
 }
-h2 {
+main h2 {
   font-size: 4.5em;
   color: #e7e7e7;
   text-transform: uppercase;
@@ -190,7 +190,7 @@ h2 {
 .athlet_line {
   background-color: #5e42b0;
 }
-.player-section {
+.player_section {
   grid-template-rows: 69% 31%;
 }
 .basketballer {
@@ -201,7 +201,7 @@ h2 {
   margin-left: -160px;
   margin-top: -80px;
 }
-.player-section .activity_cell {
+.player_section .activity_cell {
   justify-self: end;
   max-width: 680px;
 }
@@ -211,7 +211,7 @@ h2 {
 .activity_content {
   grid-template-rows: 1fr 1fr 1fr;
 }
-.activity_content-image {
+.activity_content_image {
   height: 730px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -292,6 +292,114 @@ h2 {
   max-width: 520px;
 }
 
+/* Footer Settings */
+
+footer {
+  overflow: hidden;
+  color: #fff;
+  max-width: 1920px;
+  box-sizing: border-box;
+  padding: 30px 20px 0;
+  margin: 0 auto;
+  position: relative;
+}
+.footer_background_setting {
+  z-index: 0;
+}
+.footer_background_settings {
+  position: absolute;
+  background-color: #0a0e34;
+  max-width: 1920px;
+  max-height: 960px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  left: 0;
+}
+.footer_background_image {
+  position: absolute;
+  background-image: url(./img/photo-stadion.png);
+  background-position-y: bottom;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  max-width: 1920px;
+  max-height: 960px;
+  height: 100%;
+  width: 100%;
+}
+.footer_background_line_color {
+  background-color: #0a0e34;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 145px;
+  opacity: 0.8;
+  z-index: 1;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  min-height: 930px;
+  z-index: 1;
+}
+.footer_app_elements {
+  text-align: center;
+}
+.icon-app {
+  display: inline-block;
+  width: 130px;
+}
+.footer_heading_container {
+  display: inline-block;
+  margin-top: 165px;
+}
+.footer_button_settings {
+  margin-top: -135px;
+}
+.footer_first_element__heading {
+  font-size: 4.500em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  line-height: 60pt;
+}
+.footer_second_element__heading {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #a496ca;
+  text-align: left;
+  line-height: 34pt;
+}
+.footer_bottom_links {
+  display: flex;
+  justify-content: space-around;
+}
+.link_social_page {
+  width: 315px;
+  text-align: end;
+}
+.link_social_page > a {
+  padding: 0 20px;
+}
+.footer_link {
+  color: #fff;
+}
+.links_separator {
+  border-right: 2px solid #fff;
+  display: inline-block;
+  height: 16px;
+  letter-spacing: 0.05em;
+
+}
+/* Button Settings */
 
 .button {
   margin: 0 30px;
