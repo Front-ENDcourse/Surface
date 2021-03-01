@@ -1,0 +1,42 @@
+ .slick-slider{
+  width: 100%;
+  max-width: 768px;
+  min-width: 320px;
+  height: 100%;
+  padding-top: 77px;
+  box-sizing: border-box;
+ } 
+ .slider_player_settings {
+  padding-top: 40px;
+ }
+ .slider_player_settings > .slick-list {
+  margin-bottom: initial;
+ }
+.slick-list {
+  overflow: hidden;
+  height: 160px;
+  margin-bottom: 16px;
+} 
+.slick-track{
+  display: flex;
+  height: 100%;
+}
+.slick-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.slick-dots li.slick-active button{
+  background-color: #5c3caf;
+}  
+.slick-dots li button{
+  outline: none;
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #d8d8d8;
+  border: none;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: block;
+} 
