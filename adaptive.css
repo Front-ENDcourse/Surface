@@ -416,9 +416,28 @@
     background-size: cover;
   }
 }
-@media screen and (orientation:landscape) and (min-height: 320px) and (max-height: 500px) {
+@media screen and (orientation:landscape) and (min-height: 230px) and (max-height: 500px) {
   header {
     font-size: 16px;
+  }
+  .content_width {
+    max-width: 425px;
+  }
+  .header_background_element_line {
+    width: 110px;
+    bottom: 59%;
+    left: 30%;
+    z-index: 1;
+  }
+  .footer_background_firs_element_line {
+    bottom: 27%;
+    left: 42%;
+    width: 100px;
+  }
+  .footer_background_second_element_line {
+    bottom: 35%;
+    left: -3%;
+    width: 75px;
   }
   .nav_bar {
     margin-top: initial;
