@@ -3,7 +3,7 @@
     margin-top: -200px;
   }
 }
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (min-height: 500px) and (max-width: 1200px) {
   .activity_content h2 {
     font-size: 4em;
   }
@@ -414,5 +414,34 @@
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+  }
+}
+@media screen and (orientation:landscape) and (min-height: 320px) and (max-height: 500px) {
+  header {
+    font-size: 16px;
+  }
+  .nav_bar {
+    margin-top: initial;
+  }
+  footer {
+    font-size: 16px;
+  }
+  .footer_content {
+    padding: 10px 0 0;
+  }
+  .icon-app {
+    margin: 0 auto;
+  }
+  .footer_button_settings {
+    margin-top: initial;
+  }
+  .footer_background_line_color {
+    height: 50px;
+  }
+  .footer_first_element__heading {
+    line-height: initial;
+  }
+  .footer_second_element__heading {
+    line-height: initial;
   }
 }
