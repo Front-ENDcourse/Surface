@@ -1,16 +1,7 @@
-@media (min-width: 1200px) {
-  .nav_bar {
-    margin-top: -200px;
-  }
-}
 @media (min-width: 1024px) and (min-height: 500px) and (max-width: 1200px) {
   .activity_content h2 {
     font-size: 4em;
   }
-  .nav_bar {
-    margin-top: -150px;
-  }
-  
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .header_element_container {
@@ -162,7 +153,7 @@
     font-size: 1.6em;
   }
   .nav_bar {
-    order: 1;
+    text-align: center;
   }
   .nav_bar > ul {
     flex-wrap: wrap;
@@ -350,7 +341,7 @@
     background-position-y: -14px;
     background-size: 600px;
   }
-  .mobile_heading_view {
+  .mobile_view_show {
     display: initial;
     grid-row: 1;
     grid-column: 1;
@@ -401,7 +392,7 @@
   .footer_background_line_color {
     height: 50px;
   }
-  .mobile_veiw {
+  .mobile_view_hide {
     display: none;
   }
 }
@@ -419,9 +410,6 @@
 @media screen and (orientation:landscape) and (min-height: 230px) and (max-height: 500px) {
   header {
     font-size: 16px;
-  }
-  .content_width {
-    max-width: 425px;
   }
   .header_background_element_line {
     width: 110px;
@@ -462,5 +450,19 @@
   }
   .footer_second_element__heading {
     line-height: initial;
+  }
+}
+@media (min-width: 768px) and (min-height: 500px) and (max-height: 700px) {
+  .footer_content {
+    padding: 10px 0 0;
+  }
+  .icon-app {
+    margin: 0 auto 10px;
+  }
+  .footer_button_settings {
+    margin-top: initial;
+  }
+  .footer_background_line_color {
+    height: 50px;
   }
 }

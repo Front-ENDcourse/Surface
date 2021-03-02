@@ -589,7 +589,7 @@ footer {
 .svg_container {
   display: none;
 }
-.mobile_heading_view {
+.mobile_view_show {
   display: none;
   margin: initial;
   padding: 18px;
