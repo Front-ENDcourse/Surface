@@ -1,0 +1,468 @@
+@media (min-width: 1024px) and (min-height: 500px) and (max-width: 1200px) {
+  .activity_content h2 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header_element_container {
+    padding: 0 60px;
+  }
+  h1 {
+    font-size: 3.2em;
+  }
+  .second_element_heading {
+    text-align: start;
+    margin-left: 100px;
+    z-index: 2;
+  }
+  .header_background_element_line {
+    left: 22%;
+    bottom: 58%;
+  }
+  .nav_bar {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .nav_bar > ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav_bar > ul a {
+    font-size: 0.8em;
+  }
+  .button {
+    margin: 0 15px;
+  }
+  .text_element > p {
+    font-size: 0.9em;
+  }
+  
+  .footer_content {
+    padding: 80px 0 50px;
+  }
+  .footer_first_element__heading {
+    font-size: 4em;
+  }
+  .footer_app_elements {
+    margin: initial;
+  }
+  .footer_bottom_links > a,
+  .footer_bottom_links > .link_page_info {
+    display: none;
+  }
+  .link_social_page {
+    width: initial;
+  }
+  .icon-app {
+    display: block;
+    margin: 0 auto 60px;
+  }
+  .footer_background_firs_element_line {
+    left: 40%;
+  }
+  .footer_background_second_element_line {
+    left: -1%;
+  }
+}
+@media (max-width: 1024px) {
+  .activity_content {
+    grid-template-rows: 585px 1fr 585px 1fr 585px 1fr;
+    grid-template-columns: 1fr;
+  }
+  .activity_content_image {
+    height: 585px;
+  }
+  .image_activity {
+    grid-row: 1;
+  }
+  .text_activity {
+    grid-row: 2;
+    align-self: initial;
+    padding: 80px 20px 60px;
+  }
+  .text_activity > p {
+    max-width: 666px;
+  }
+  .image_contact {
+    grid-row: 3;
+  }
+  .text_contact {
+    grid-row: 4;
+    justify-self: initial;
+    align-self: initial;
+    padding: 80px 20px 60px;
+  }
+  .text_contact > p {
+    max-width: 666px;
+  }
+  .image_work {
+    grid-row: 5;
+  }
+  .text_work {
+    align-self: initial;
+    grid-row: 6;
+    padding: 80px 20px 80px;
+  }
+  .text_work > p {
+    max-width: 666px;
+  }
+  .item_number {
+    top: -75px;
+    left: 20px !important;
+    padding: 39px;
+    height: 38px;
+  }
+  .item_number::after {
+    bottom: 45px;
+    left: 44px;
+  }
+  .activity_content h2 {
+    margin-bottom: initial;
+  }
+  .text_activity > p::after,
+  .text_contact > p::after,
+  .text_work > p::after {
+    bottom: -40px;
+  }
+  header {
+    padding: 0;
+  }
+  .header_background_setting {
+    height: 100vh;
+  }
+  .header_content {
+    min-height: initial;
+    height: 100vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header_background_image {
+    background-size: cover;
+    background-position-y: initial;
+  }
+  .header_content {
+    padding: 0 10px 0;
+  }
+  .logo_elements > span {
+    display: none;
+  }
+  .logo_elements {
+    justify-content: center;
+  }
+  h1 {
+    font-size: 1.6em;
+  }
+  .nav_bar {
+    text-align: center;
+  }
+  .nav_bar > ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav_bar > ul li {
+    padding: 5px 15px;
+}
+  .nav_bar > ul a {
+    font-size: 0.6em;
+  }
+  .header_background_element_line {
+    width: 200px;
+    bottom: 65%;
+    transform: rotate(132deg);
+    left: 18%
+  }
+  .second_element_heading {
+    margin-right: initial;
+    z-index: 3;
+  }
+  .button {
+    font-size: 0.4em;
+    padding: 10px 15px;
+    margin: 0;
+  }
+  .button > img {
+    width: 15px;
+    height: 17px;
+    vertical-align: super;
+  }
+  .button > span {
+    width: 87px;
+  }
+  .athlet_section {
+    grid-template-rows: 14% 38% 48%;
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+  .athlet_section h2 {
+    font-size: 2.5em;
+  }
+  .footboller {
+    height: 281px;
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0;
+    margin-bottom: -50px;
+  }
+  .image_footballer {
+    background-size: contain;
+    background-position: center;
+  }
+  .footballer_background_line  {
+    width: 240px;
+    bottom: 62%;
+    right: 10%;
+  }
+  .footboller > .stroke_light {
+    left: 58px;
+    top: 14px;
+  }
+  .footboller .stroke_dark{
+    left: 85px;
+    top: 25px; 
+  }
+  .basketballer .stroke_light {
+    left: 52px;
+    top: 4px;
+  }
+  .basketballer .stroke_dark {
+    left: 77px;
+    top: 12px;
+  }
+  .basketballer .stroke_dark_second_element {
+    display: none;
+  }
+  .basketballer_background_line_first_element {
+    width: 200px;
+    bottom: 33%;
+    left: 5%;
+  }
+  .basketballer_background_line_second_element {
+    width: 120px;
+    bottom: 185px;
+    left: 188px;
+  }
+  .background_bottom_line_up {
+    grid-column: initial;
+    grid-row: 3;
+    grid-column: 1;
+    z-index: -1;
+  }
+  .background_bottom_line_down {
+    display: none;
+  }
+  .first_slider_wrapper {
+    grid-row: 3;
+  }
+  .activity_cell {
+    padding: initial;
+    height: 200px;
+  }
+  .text_element {
+    margin: 0 10px;
+    margin-bottom: initial;
+    width: 285px;
+  }
+  .text_element > h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  .text_element > p {
+    font-size: 0.75em;
+    color: #000;
+  }
+  .slider {
+    display: initial;
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .basketballer {
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0;
+    height: 270px;
+  }
+  .nuber_title {
+    padding: 0;
+  }
+  .image_basketballer {
+    background-size: contain;
+    background-position: center;
+  }
+  .player_section  {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 234px 240px;
+  }
+  .player_section h2 {
+    font-size: 2.5em;
+  }
+  .activity_content h2 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+  }
+  .activity_content p {
+    font-size: 0.8em;
+  }
+  .text_work {
+    padding: 80px 20px 110px;
+  }
+  .activity_content {
+    grid-template-rows: 351px 210px 351px 210px 351px 245px;
+  }
+  .text_activity {
+    padding: 20px;
+  }
+  .text_contact {
+    padding: 20px;
+  }
+  .text_work {
+    padding: 20px;
+  }
+  .activity_content_image {
+    height: 354px;
+  }
+  .item_number {
+    height: 18px;
+    width: 18px;
+    padding: 26px;
+    font-size: 0.7em;
+    top: -58px;
+  }
+  .item_number::after {
+    width: 16px;
+    bottom: 21px;
+    left: 27px;
+  }
+  .image_work {
+    background-position-x: -74px;
+    background-position-y: center;
+  }
+  .image_contact {
+    background-position-x: -217px;
+    background-position-y: -14px;
+    background-size: 600px;
+  }
+  .mobile_view_show {
+    display: initial;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .footer_content {
+    padding: 50px 0 0;
+  }
+  .footer_app_elements {
+    margin-top: initial;
+  }
+  .icon-app {
+    width: 84px;
+    margin: 0 auto 50px;
+    display: block;
+  }
+  .footer_background_firs_element_line {
+    bottom: 22%;
+    left: 34%;
+    width: 150px;
+  }
+  .footer_background_second_element_line {
+    bottom: 35%;
+    left: -3%;
+    width: 90px;
+  }
+  .footer_first_element__heading {
+    font-size: 1.7em;
+    letter-spacing: 0.05em;
+    line-height: initial;
+  }
+  .footer_second_element__heading {
+    font-size: 0.75em;
+    letter-spacing: 0.03em;
+    line-height: initial;
+  }
+  .footer_button_settings {
+    margin-top: initial;
+  }
+  .footer_logo {
+    display: none;
+  }
+  .link_social_page {
+    width: initial;
+  }
+  .link_page_info {
+    display: none;
+  }
+  .footer_background_line_color {
+    height: 50px;
+  }
+  .mobile_view_hide {
+    display: none;
+  }
+}
+@media (min-width: 380px) and (max-width: 767px) {
+  .image_work {
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .image_contact {
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+  }
+}
+@media screen and (orientation:landscape) and (min-height: 230px) and (max-height: 500px) {
+  header {
+    font-size: 16px;
+  }
+  .header_background_element_line {
+    width: 110px;
+    bottom: 59%;
+    left: 30%;
+    z-index: 1;
+  }
+  .footer_background_firs_element_line {
+    bottom: 27%;
+    left: 42%;
+    width: 100px;
+  }
+  .footer_background_second_element_line {
+    bottom: 35%;
+    left: -3%;
+    width: 75px;
+  }
+  .nav_bar {
+    margin-top: initial;
+  }
+  footer {
+    font-size: 16px;
+  }
+  .footer_content {
+    padding: 10px 0 0;
+  }
+  .icon-app {
+    margin: 0 auto;
+  }
+  .footer_button_settings {
+    margin-top: initial;
+  }
+  .footer_background_line_color {
+    height: 50px;
+  }
+  .footer_first_element__heading {
+    line-height: initial;
+  }
+  .footer_second_element__heading {
+    line-height: initial;
+  }
+}
+@media (min-width: 768px) and (min-height: 500px) and (max-height: 700px) {
+  .footer_content {
+    padding: 10px 0 0;
+  }
+  .icon-app {
+    margin: 0 auto 10px;
+  }
+  .footer_button_settings {
+    margin-top: initial;
+  }
+  .footer_background_line_color {
+    height: 50px;
+  }
+}

@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  letter-spacing: 0.8px;
+  font-size: 20px;
+  font-family: 'ProximaNova', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+b {
+  font-weight: 600;
+  display: block;
+}
+
+/* Header Settings */
+
+header {
+  overflow: hidden;
+  color: #fff;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+.header_background_setting {
+  position: absolute;
+  background-color: #0a0e34;
+  max-width: 1920px;
+  max-height: 960px;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  left: 0;
+}
+.header_background_image {
+  position: absolute;
+  background-image: url(./img/Background-football.png);
+  background-position: center;
+  background-position-y: -34px;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  max-width: 1920px;
+  max-height: 960px;
+  height: 100%;
+  width: 100%;
+}
+.header_content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 960px;
+  z-index: 2;
+  box-sizing: border-box;
+  padding: 30px 20px 30px;
+}
+.content_width {
+  max-width: 1475px;
+  margin: 0 auto;
+  width: 100%;
+} 
+.logo_elements {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_fill {
+  fill: #fff;
+}
+.logo_elements > a:hover .logo_fill, 
+.footer_bottom_links > a:hover .logo_fill {
+  fill: #9173e6;
+  transition: .5s;
+}
+.signature {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.7em;
+  padding: 8px;
+}
+h1 {
+  font-size: 4.500em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.first_element_heading {
+  text-align: start;
+  position: relative;
+  z-index: 3;
+}
+.header_background_element_line {
+  position: absolute;
+  transform: rotate(124deg);
+  z-index: 2;
+  bottom: 53%;
+  left: 25%;
+  border-bottom: 5px solid #5e42b0;
+  height: 4px;
+  width: 400px;
+}
+.second_element_heading {
+  text-align: end;
+  margin-right: 30px;
+  position: relative;
+  z-index: 1;
+}
+.nav_bar {
+  text-align: end;
+}
+.nav_bar > ul {
+  display: inline-flex;
+  text-transform: uppercase;
+}
+.nav_bar > ul li {
+  padding: 5px 20px;
+}
+.nav_bar > ul a {
+  font-size: 0.7em;
+  color: #9071ea;
+}
+.nav_bar > ul a:hover {
+  color: #fff;
+  border-bottom: 2px solid rgb(145, 146, 206);
+  transition: .5s;
+}
+.button_element {
+  text-align: center;
+}
+
+/* Main Settings */
+
+main {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+section {
+  /* height: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.athlet_section {
+  grid-template-rows: 40% 26% 29%;
+  margin: 50px 0 0 0;
+}
+.athlet_section .activity_cell {
+  max-width: 720px;
+}
+.activity_cell {
+  z-index: 1;
+  padding: 50px 30px 0;
+}
+.footboller {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-right: 6%;
+  overflow: hidden;
+  position: relative;
+  height: 950px;
+  z-index: 1;
+}
+.footboller > .stroke_light {
+  position: absolute;
+  right: 520px;
+  top: 85px;
+}
+.footboller .stroke_dark {
+  position: absolute;
+  right: 500px;
+  top: 105px;
+}
+.image_footballer {
+  background-image: url(./img/footballer.png);
+  background-position-x: right;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.footballer_background_line {
+  height: 4px;
+  width: 650px;
+  border-bottom: 4px solid #9172e6;
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 67%;
+  right: -4%;
+  z-index: -1;
+}
+main h2 {
+  font-size: 4.5em;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  margin-bottom: 80px;
+}
+.nuber_title {
+  display: inline-block;
+  border-bottom: 4px solid #5e42b0;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding-bottom: 5px;
+  vertical-align: super;
+}
+.text_element {
+  margin-bottom: 120px;
+}
+.text_element:last-child {
+  margin-bottom: 100px
+}
+.text_element > h3 {
+  color: #c1c1c1;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 22px;
+}
+.alt_color > span {
+  border-bottom: 5px solid #fff;
+}
+.alt_color > p {
+  color: #fff;
+}
+.alt_color > .alt_color-number {
+  color: #9173e6;
+}
+.athlet_line_up {
+  background-color: #f6f4fa;
+}
+.background_bottom_line_up {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  z-index: 0;
+}
+.background_bottom_line_down {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  z-index: 0;
+}
+.athlet_line_down {
+  background-color: #5e42b0;
+}
+.player_section {
+  grid-template-rows: 44% 27% 29%;
+}
+.basketballer {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  z-index: 2;
+  margin-left: -160px;
+  margin-top: -80px;
+  height: 950px;
+  overflow: hidden;
+  position: relative;
+}
+.basketballer .stroke_light {
+  position: absolute;
+  left: 308px;
+  top: 142px;
+}
+.basketballer .stroke_dark {
+  position: absolute;
+  left: 275px;
+  top: 120px;
+}
+.basketballer .stroke_dark_second_element {
+  position: absolute;
+  left: 770px;
+  top: 385px;
+}
+.basketballer_background_line_first_element {
+  height: 4px;
+  width: 650px;
+  border-bottom: 4px solid #9172e6;
+  transform: rotate(132deg);
+  position: absolute;
+  bottom: 45%;
+  left: 5%;
+  z-index: -1;
+}
+.basketballer_background_line_second_element {
+  height: 4px;
+  width: 350px;
+  border-bottom: 4px solid #9172e6;
+  transform: rotate(132deg);
+  position: absolute;
+  bottom: 700px;
+  left: 600px;
+  z-index: -1;
+}
+.image_basketballer {
+  background-image: url(./img/red_busket.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.player_section .activity_cell {
+  justify-self: end;
+  max-width: 680px;
+}
+.player_line_up {
+  background-color: #f6f4fa;
+}
+.player_line_down {
+  background-color: #0a0e34;
+}
+.activity_content {
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.activity_content_image {
+  height: 730px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image_activity {
+  background-image: url(./img/shutterstock.png);
+  background-position: center;
+}
+.image_contact {
+  background-image: url(./img/bigstock-Football-players-and-coach.png);
+  background-position-x: right;
+  background-position-y: -57px;
+  background-size: 1300px;
+}
+.image_work {
+  background-image: url(./img/shutterstock_team.png);
+  background-position-x: -10px;
+}
+.item_number {
+  display: inline-block;
+  width: 38px;
+  height: 25px;
+  padding: 65px;
+  background-color: #5e42b0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: absolute;
+}
+.item_number::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 28px;
+  background-color: #8f7bc8;
+  height: 5px;
+  border-radius: 3px;
+  bottom: 57px;
+  left: 70px;
+}
+.text_activity {
+  position: relative;
+  padding: 0 20px  20px 120px ;
+  align-self: center;
+}
+.text_activity > .item_number {
+  left: -84px;
+}
+.text_activity > p {
+  letter-spacing: 0.05em;
+  font-size: 1.2em;
+  max-width: 330px;
+  position: relative;
+}
+.text_activity > p::after,
+.text_contact > p::after,
+.text_work > p::after {
+  position: absolute;
+  bottom: -85px;
+  left: 0;
+  content: "";
+  width: 22px;
+  height: 5px;
+  background-color: #5e42b0;
+  border-radius: 2px;
+}
+.text_contact {
+  position: relative;
+  justify-self: end;
+  padding: 0 120px  20px 20px ;
+  align-self: center;
+}
+.text_contact > .item_number {
+  right: -84px;
+}
+.text_contact > p {
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  max-width: 400px;
+  position: relative;
+}
+.text_work {
+  position: relative;
+  padding: 0 20px  20px 120px ;
+  align-self: center;
+}
+.text_work > .item_number {
+  left: -84px;
+}
+.text_work > p {
+  letter-spacing: 0.05em;
+  font-size: 1.2em;
+  max-width: 520px;
+  position: relative;
+}
+
+/* Footer Settings */
+
+footer {
+  overflow: hidden;
+  color: #fff;
+  max-width: 1920px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
+.footer_background_setting {
+  z-index: 0;
+}
+.footer_background_settings {
+  position: absolute;
+  background-color: #0a0e34;
+  max-width: 1920px;
+  max-height: 960px;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  left: 0;
+}
+.footer_background_image {
+  position: absolute;
+  background-image: url(./img/photo-stadion.png);
+  background-position-y: bottom;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  max-width: 1920px;
+  max-height: 960px;
+  height: 100%;
+  width: 100%;
+}
+.footer_background_line_color {
+  background-color: #0a0e34;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 145px;
+  opacity: 0.8;
+  z-index: 1;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 960px;
+  z-index: 1;
+}
+.footer_app_elements {
+  margin-top: 165px;
+  text-align: center;
+}
+.icon-app {
+  display: inline-block;
+  width: 130px;
+}
+.footer_heading_container {
+  display: inline-block;
+  position: relative;
+}
+.footer_button_settings {
+  margin-top: -135px;
+}
+.footer_background_firs_element_line {
+  position: absolute;
+  transform: rotate(132deg);
+  z-index: -1;
+  bottom: 53%;
+  left: 43%;
+  border-bottom: 5px solid #5e42b0;
+  height: 4px;
+  width: 350px;
+}
+.footer_background_second_element_line {
+  position: absolute;
+  transform: rotate(132deg);
+  z-index: -1;
+  bottom: 53%;
+  left: 0%;
+  border-bottom: 5px solid #5e42b0;
+  height: 4px;
+  width: 200px;
+}
+.footer_first_element__heading {
+  font-size: 4.500em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  line-height: 60pt;
+}
+.footer_second_element__heading {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  color: #a496ca;
+  text-align: left;
+  line-height: 34pt;
+}
+.footer_bottom_links {
+  display: flex;
+  justify-content: space-around;
+}
+.link_social_page {
+  width: 335px;
+  text-align: end;
+}
+.link_social_page > a {
+  padding: 5px;
+  margin: 0 15px;
+  display: inline-block;
+}
+.social_link {
+  fill: #fff;
+}
+.link_social_page > a:hover .social_link {
+  transition: .5s;
+  fill: #9173e6;
+}
+.footer_link {
+  color: #fff;
+}
+.footer_link:hover {
+  color: #9173e6;
+  transition: .5s;
+}
+.links_separator {
+  border-right: 2px solid #fff;
+  display: inline-block;
+  height: 16px;
+  letter-spacing: 0.05em;
+
+}
+
+/* Button Settings */
+
+.button {
+  margin: 0 30px;
+  display: inline-block;
+  font-size: 0.700em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  padding: 20px 65px;
+  border: none;
+  background-color: #5e42b0;
+  border-radius: 60px;
+}
+.button:hover {
+  transition: .5s;
+  background-color: #8a60d8;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.button > img {
+  width: 37px;
+  height: 43px;
+}
+.button > span {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  vertical-align: super;
+  margin-left: 10px;
+}
+
+/* Others Settings */
+.svg_container {
+  display: none;
+}
+.mobile_view_show {
+  display: none;
+  margin: initial;
+  padding: 18px;
+}
+.slider {
+  display: none;
+}
